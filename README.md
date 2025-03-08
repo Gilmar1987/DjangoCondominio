@@ -13,7 +13,7 @@ O projeto **ComprasWeb** é uma aplicação web para gerenciar compras online. E
 ## Tecnologias Utilizadas
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: C#, ASP.NET Core
-- **Banco de Dados**: SQL Server
+- **Banco de Dados**: SQLite
 - **Ferramentas**: Visual Studio, Git
 
 ## Requisitos
