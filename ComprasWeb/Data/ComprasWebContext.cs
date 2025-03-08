@@ -13,4 +13,6 @@ using ComprasWeb.Models;
         }
 
         public DbSet<ComprasWeb.Models.Produto> Produto { get; set; } = default!;
+
+public DbSet<ComprasWeb.Models.Funcionario> Funcionario { get; set; } = default!;
     }

@@ -258,3 +258,4 @@ D:\repositorio\ComprasWeb\obj\Debug\net8.0\refint\ComprasWeb.dll
 D:\repositorio\ComprasWeb\obj\Debug\net8.0\ComprasWeb.pdb
 D:\repositorio\ComprasWeb\obj\Debug\net8.0\ComprasWeb.genruntimeconfig.cache
 D:\repositorio\ComprasWeb\obj\Debug\net8.0\ref\ComprasWeb.dll
+D:\repositorio\ComprasWeb\obj\Debug\net8.0\ComprasWeb.sourcelink.json
