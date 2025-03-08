@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComprasWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d129792335207008c957e9641f509c50cf62ef0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComprasWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComprasWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
