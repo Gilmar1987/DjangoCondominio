@@ -34,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/repositorio/AplicacaoPoupanca/Views/Operacoes/AplicarCorrecao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjb2VzXEFwbGljYXJDb3JyZWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/repositorio/AplicacaoPoupanca/Views/Operacoes/ConsultarSaldo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjb2VzXENvbnN1bHRhclNhbGRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/repositorio/AplicacaoPoupanca/Views/Operacoes/Sacar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjb2VzXFNhY2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/repositorio/AplicacaoPoupanca/Views/Operacoes/Transferir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFjb2VzXFRyYW5zZmVyaXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/repositorio/AplicacaoPoupanca/Views/Poupanca/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG91cGFuY2FcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

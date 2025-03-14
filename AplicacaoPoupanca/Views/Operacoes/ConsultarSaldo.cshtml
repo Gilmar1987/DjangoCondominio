@@ -1,0 +1,14 @@
+﻿@model AplicacaoPoupanca.Models.Poupanca
+
+@{
+    ViewData["Title"] = "Consultar Saldo";
+}
+<h2>Consultar Saldo</h2>
+<div>
+    <h4>Conta: @Model.NumeroConta</h4>
+    <p>Titular: @Model.Titular</p>
+    <p>Saldo Atual: @Model.Saldo.ToString("C")</p>
+    <p>Data de Criação: @Model.DataCriacao.ToString("dd/MM/yyyy")</p>
+
+
+</div>

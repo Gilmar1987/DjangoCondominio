@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using AplicacaoPoupanca.Data;
 namespace AplicacaoPoupanca
 {
     public class Program

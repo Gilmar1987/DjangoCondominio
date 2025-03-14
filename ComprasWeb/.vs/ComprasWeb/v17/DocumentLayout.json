@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\repositorio\\ComprasWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repositorio\\ComprasWeb\\Migrations\\20250308024931_primeiraMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250308024931_primeiraMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4373279-41C1-44A1-9EA4-4DB28A137AA7}|ComprasWeb.csproj|d:\\repositorio\\comprasweb\\migrations\\20250308024931_primeiramigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4373279-41C1-44A1-9EA4-4DB28A137AA7}|ComprasWeb.csproj|solutionrelative:migrations\\20250308024931_primeiramigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4373279-41C1-44A1-9EA4-4DB28A137AA7}|ComprasWeb.csproj|d:\\repositorio\\comprasweb\\comprasweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -80,15 +80,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ComprasWeb",
+              "Title": "ComprasWeb.csproj",
               "DocumentMoniker": "D:\\repositorio\\ComprasWeb\\ComprasWeb.csproj",
               "RelativeDocumentMoniker": "ComprasWeb.csproj",
               "ToolTip": "D:\\repositorio\\ComprasWeb\\ComprasWeb.csproj",
               "RelativeToolTip": "ComprasWeb.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T02:36:43.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T02:36:43.47Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": ".gitignore.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-08T01:54:32.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T01:54:32.995Z"
             },
             {
               "$type": "Document",

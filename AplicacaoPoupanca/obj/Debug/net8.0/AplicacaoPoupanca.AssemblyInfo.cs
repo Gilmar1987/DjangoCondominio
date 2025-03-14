@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplicacaoPoupanca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c73e28158ab878f58e5074cffdb4c4af0435040e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3d19215eabf663c35c64a8167aeb3723b361ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplicacaoPoupanca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplicacaoPoupanca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

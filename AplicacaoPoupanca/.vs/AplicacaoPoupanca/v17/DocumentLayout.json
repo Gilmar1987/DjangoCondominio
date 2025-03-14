@@ -7,28 +7,80 @@
       "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:controllers\\operacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\controllers\\poupancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:controllers\\poupancacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\operacoes\\transferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\operacoes\\transferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\operacoes\\sacar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\operacoes\\sacar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\operacoes\\consultarsaldo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\operacoes\\consultarsaldo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\operacoes\\aplicarcorrecao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\operacoes\\aplicarcorrecao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\models\\correcaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:models\\correcaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\models\\transferirviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:models\\transferirviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\models\\sacarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:models\\sacarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\migrations\\20250313000257_primeira.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:migrations\\20250313000257_primeira.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repositorio\\AplicacaoPoupanca\\Migrations\\20250313000257_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250313000257_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repositorio\\AplicacaoPoupanca\\Controllers\\PoupancaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PoupancaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\views\\poupanca\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:views\\poupanca\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\models\\poupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:models\\poupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|d:\\repositorio\\aplicacaopoupanca\\migrations\\20250313000257_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF906AC4-8DF6-435E-831D-0EF6DDC26115}|AplicacaoPoupanca.csproj|solutionrelative:migrations\\20250313000257_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +106,175 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:26:42.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T01:38:17.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AplicarCorrecao.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\AplicarCorrecao.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operacoes\\AplicarCorrecao.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\AplicarCorrecao.cshtml",
+              "RelativeToolTip": "Views\\Operacoes\\AplicarCorrecao.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T01:23:26.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transferir.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\Transferir.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operacoes\\Transferir.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\Transferir.cshtml",
+              "RelativeToolTip": "Views\\Operacoes\\Transferir.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T01:04:36.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sacar.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\Sacar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operacoes\\Sacar.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\Sacar.cshtml",
+              "RelativeToolTip": "Views\\Operacoes\\Sacar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T00:56:23.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:06:07.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:04:01.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250313000257_primeira.Designer.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Migrations\\20250313000257_primeira.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250313000257_primeira.Designer.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Migrations\\20250313000257_primeira.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250313000257_primeira.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:03:04.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultarSaldo.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\ConsultarSaldo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Operacoes\\ConsultarSaldo.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Operacoes\\ConsultarSaldo.cshtml",
+              "RelativeToolTip": "Views\\Operacoes\\ConsultarSaldo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T22:51:41.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Poupanca\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Poupanca\\Create.cshtml",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Poupanca\\Create.cshtml",
+              "RelativeToolTip": "Views\\Poupanca\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T22:47:37.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CorrecaoViewModel.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Models\\CorrecaoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CorrecaoViewModel.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Models\\CorrecaoViewModel.cs",
+              "RelativeToolTip": "Models\\CorrecaoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:37:35.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransferirViewModel.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Models\\TransferirViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TransferirViewModel.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Models\\TransferirViewModel.cs",
+              "RelativeToolTip": "Models\\TransferirViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:31:23.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SacarViewModel.cs",
+              "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Models\\SacarViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\SacarViewModel.cs",
+              "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Models\\SacarViewModel.cs",
+              "RelativeToolTip": "Models\\SacarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:27:37.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T00:26:24.055Z",
               "EditorCaption": ""
@@ -73,14 +287,14 @@
               "RelativeDocumentMoniker": "Controllers\\OperacoesController.cs",
               "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Controllers\\OperacoesController.cs",
               "RelativeToolTip": "Controllers\\OperacoesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T00:24:50.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -88,25 +302,24 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T00:07:50.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T00:07:50.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T00:07:47.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "20250313000257_primeira.cs",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Migrations\\20250313000257_primeira.cs",
               "RelativeDocumentMoniker": "Migrations\\20250313000257_primeira.cs",
@@ -114,25 +327,24 @@
               "RelativeToolTip": "Migrations\\20250313000257_primeira.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:02:57.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T00:02:57.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PoupancaController.cs",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Controllers\\PoupancaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PoupancaController.cs",
               "ToolTip": "D:\\repositorio\\AplicacaoPoupanca\\Controllers\\PoupancaController.cs",
               "RelativeToolTip": "Controllers\\PoupancaController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T00:02:20.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Poupanca.cs",
               "DocumentMoniker": "D:\\repositorio\\AplicacaoPoupanca\\Models\\Poupanca.cs",
               "RelativeDocumentMoniker": "Models\\Poupanca.cs",
@@ -140,8 +352,7 @@
               "RelativeToolTip": "Models\\Poupanca.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:56:32.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T23:56:32.183Z"
             }
           ]
         }

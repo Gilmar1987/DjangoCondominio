@@ -1,0 +1,6 @@
+@ContaPoupancaApi_HostAddress = http://localhost:5033
+
+GET {{ContaPoupancaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
