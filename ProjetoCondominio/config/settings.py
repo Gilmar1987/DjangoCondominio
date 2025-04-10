@@ -30,13 +30,17 @@ INSTALLED_APPS = [
     #Configuraçães do Projeto
     'config',
     'usuarios',
-    'proprietarios',
+    'proprietarios', 
+    'apartamentos',
+    'moradores',
+    
     
     
 ]
 #AUTH_USER_MODEL = 'usuarios.Usuario'
 AUTH_USER_MODEL = 'proprietarios.Proprietario'
 
+#AUTH_USER_MODEL = 'moradores.Morador'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

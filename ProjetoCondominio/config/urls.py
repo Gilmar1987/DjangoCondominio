@@ -9,5 +9,6 @@ urlpatterns = [
     path('', include('proprietarios.urls')),
     
     
+    
    
 ]
