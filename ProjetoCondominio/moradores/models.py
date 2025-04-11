@@ -6,8 +6,8 @@ from django.contrib.auth.models import Permission
 from django.contrib.auth.models import AbstractUser, Permission
 
 # Create your models here.
-class Morador(models.Model):
-    usuario = models.OneToOneField(Proprietario, on_delete=models.CASCADE, related_name="morador_usuario")
+class Morador(Usuario):
+    #usuario = models.OneToOneField(Proprietario, on_delete=models.CASCADE, related_name="morador_usuario")
     apartamento = models.ForeignKey(Apartamento, on_delete=models.PROTECT, related_name="morador_apartamento")
     telefone = models.CharField(max_length=20)
     data_nascimento = models.DateField(blank=True, null=True)
@@ -15,6 +15,9 @@ class Morador(models.Model):
     data_atualizacao = models.DateTimeField(auto_now=True)
 
     class Meta:
+        
         verbose_name = "Morador"
         verbose_name_plural = "Moradores"
-        ordering = ["usuario__username"]
+        
+        def __str__(self):
+            return self.username

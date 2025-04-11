@@ -1,7 +1,7 @@
 from email.headerregistry import Group
 from django.db import models
 from usuarios.models import Usuario
-from django.contrib.auth.models import AbstractUser, Permission
+from django.contrib.auth.models import Permission
 
 # Create your models here.
 class Proprietario(Usuario):
@@ -10,6 +10,7 @@ class Proprietario(Usuario):
 
    
     class Meta:
+            
             verbose_name = "Proprietário"
             verbose_name_plural = "Proprietários"
             ordering = ["username"]

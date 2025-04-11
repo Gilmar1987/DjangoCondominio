@@ -10,7 +10,7 @@ class Usuario(AbstractUser):
     )
     perfil = models.CharField(max_length=20, choices=PERFIS)
     
-    class Meta:
-        abstract = True
+    def __str__(self):
+        return self.username
 
 

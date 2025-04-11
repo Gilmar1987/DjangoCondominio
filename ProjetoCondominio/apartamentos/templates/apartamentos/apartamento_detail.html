@@ -1,0 +1,18 @@
+{% extends 'apartamentos/base.html' %}
+
+{% block title %}Detalhes do Apartamento{% endblock %}
+
+{% block content %}
+<h2>Detalhes do Apartamento</h2>
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Número:</strong>  {{ apartamento.numero }}</li>
+    <li class="list-group-item"><strong>Andar:</strong> {{ apartamento.andar }}</li>
+    <li class="list-group-item"><strong>Bloco:</strong> {{ apartamento.bloco }}</li>
+    <li class="list-group-item"><strong>Status:</strong> {{ apartamento.status }}</li>
+    <li class="list-group-item"><strong>Proprietário:</strong> {{ apartamento.proprietario }}</li>
+</ul>
+<a href="{% url 'apartamento_update' apartamento.pk %}" class="btn btn-warning">Editar</a>
+<a href="{% url 'apartamento_list' %}" class="btn btn-secondary">Voltar</a>
+{% endblock %}
+
+
