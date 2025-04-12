@@ -11,7 +11,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 class MoradorListView(ListView):
     model = Morador
     template_name = "moradores/morador_list.html"
-    context_object_name = "morador"
+    context_object_name = "moradores"
     paginate_by = 10
 
 class MoradorDetailView(DetailView):

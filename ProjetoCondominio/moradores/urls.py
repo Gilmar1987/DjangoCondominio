@@ -11,7 +11,7 @@ urlpatterns = [
     path('morador/<int:pk>/', MoradorDetailView.as_view(), name='morador_detail'),   
     path('morador/create/', MoradorCreateView.as_view(), name='morador_create'), 
     path('morador/update/<int:pk>/', MoradorUpdateView.as_view(), name='morador_update'),    
-    path('proprietario/delete/<int:pk>/', MoradorDeleteView.as_view(), name='morador_delete'),    
+    path('morador/delete/<int:pk>/', MoradorDeleteView.as_view(), name='morador_delete'),    
      
    
 ]
