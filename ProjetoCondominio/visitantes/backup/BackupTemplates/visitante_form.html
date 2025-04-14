@@ -1,0 +1,24 @@
+{% extends 'moradores/base.html' %}
+
+{% block title %}Formulário de Visitante{% endblock %}
+
+{% block content %}
+<h2>{% if form.instance.pk %}Editar{% else %}Novo{% endif %} Morador</h2>
+<form method="post" novalidate>
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="mb-3">
+            <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+            {{ field }}
+            {% if field.help_text %}
+                <small class="form-text text-muted">{{ field.help_text }}</small>
+            {% endif %}
+            {% for error in field.errors %}
+                <div class="text-danger">{{ error }}</div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a href="{% url 'visitante_list' %}" class="btn btn-secondary">Cancelar</a>
+</form>
+{% endblock %}

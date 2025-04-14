@@ -30,6 +30,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'morador_list' %}">Moradores</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'visitante_list' %}">Visitantes</a>
+                </li>
+
                 
             </ul>
         </div>
@@ -50,12 +54,16 @@
             <a class="btn btn-success btn-lg" href="{% url 'morador_list' %}" role="button">
                 <i class="fas fa-user"></i> Gerenciar Moradores
             </a>
+            <a class="btn btn-success btn-lg" href="{% url 'visitante_list' %}" role="button">
+                <i class="fas fa-user"></i> Gerenciar Visitantes
+            </a>
+            
         </div>
     </div>
 
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container text-center">
-            <span class="text-muted">© 2025 - Sistema de Condomínio</span>
+            <span class="text-muted">@ 2025 - Sistema de Condomínio</span>
         </div>
     </footer>
 

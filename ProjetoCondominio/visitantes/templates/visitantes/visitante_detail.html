@@ -1,0 +1,15 @@
+{% extends 'visitantes/base.html' %}
+
+{% block title %}Detalhes do Visitante{% endblock %}
+
+{% block content %}
+<h2>Detalhes do Visitante</h2>
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Nome:</strong> {{ visitante.nome }} </li>
+    <li class="list-group-item"><strong>CPF:</strong> {{ visitante.cpf }}</li>
+    <li class="list-group-item"><strong>Autorizado_Por:</strong> {{ visitante.autorizado_por }}</li>
+    
+</ul>
+<a href="{% url 'visitante_update' visitante.pk %}" class="btn btn-warning">Editar</a>
+<a href="{% url 'visitante_list' %}" class="btn btn-secondary">Voltar</a>
+{% endblock %}

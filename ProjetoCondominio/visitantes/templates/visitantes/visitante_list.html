@@ -1,0 +1,35 @@
+{% extends 'visitantes/base.html' %}
+{% block title %}Lista de Visitantes{% endblock %}
+{% block content %}
+<h2>Visitantes</h2>
+<a href="{% url 'visitante_create' %}" class="btn btn-success mb-3">Adicionar Visitante</a>
+<table class="table table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Destino</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+    {% for visitante in visitantes %}
+        <tr>
+            <td>{{ visitante.nome }} </td>
+            <td>{{ visitante.cpf }}</td>
+            <td>{{ visitante.destino }}</td>
+            <td>
+                <a class="btn btn-sm btn-info" href="{% url 'visitante_detail' visitante.pk %}">Ver</a>
+                <a class="btn btn-sm btn-warning" href="{% url 'visitante_update' visitante.pk %}">Editar</a>
+                <a class="btn btn-sm btn-danger" href="{% url 'visitante_delete' visitante.pk %}">Excluir</a>
+            </td>
+        </tr>
+    {% empty %}
+        <tr><td colspan="4">Nenhum Visitante cadastrado.</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
+
+
