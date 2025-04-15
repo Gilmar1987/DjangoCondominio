@@ -1,4 +1,5 @@
 from django.db import models
+from django.forms import ValidationError
 from apartamentos.models import Apartamento
 from moradores.models import Morador
 
@@ -11,6 +12,9 @@ class Visitante(models.Model):
     autorizado_por = models.ForeignKey(Morador, on_delete=models.CASCADE)
     destino = models.ForeignKey(Apartamento, on_delete=models.CASCADE)
     
+    
+    
+
     
     def __str__(self):
         return self.nome

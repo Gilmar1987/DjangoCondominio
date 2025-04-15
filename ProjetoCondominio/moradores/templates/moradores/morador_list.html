@@ -9,6 +9,7 @@
             <th>Nome</th>
             <th>Email</th>
             <th>Telefone</th>
+            <th>Apt</th>
             <th>Ações</th>
         </tr>
     </thead>
@@ -18,6 +19,7 @@
             <td>{{ morador.first_name }} {{ morador.last_name }}</td>
             <td>{{ morador.email }}</td>
             <td>{{ morador.telefone }}</td>
+            <td>{{ morador.apartamento }}</td>
             <td>
                 <a class="btn btn-sm btn-info" href="{% url 'morador_detail' morador.pk %}">Ver</a>
                 <a class="btn btn-sm btn-warning" href="{% url 'morador_update' morador.pk %}">Editar</a>

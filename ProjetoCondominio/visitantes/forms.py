@@ -27,3 +27,5 @@ class VisitanteForm(forms.ModelForm):
             'autorizado_por': 'Selecione o morador que autorizou a entrada.',
             'destino': 'Selecione o apartamento de destino.',
         }
+        
+        
