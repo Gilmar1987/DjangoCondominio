@@ -32,6 +32,8 @@ INSTALLED_APPS = [
     'moradores',
     'apartamentos',
     'visitantes',
+    'garagens',
+ 
     
 ]
 

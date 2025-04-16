@@ -1,0 +1,35 @@
+{% extends 'proprietarios/base.html' %}
+{% block title %}Lista de Garagens{% endblock %}
+{% block content %}
+<h2>Garagens</h2>
+<a href="{% url 'vagaestacionamento_create' %}" class="btn btn-success mb-3">Adicionar Garagem</a>
+<table class="table table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Código</th>
+            <th>Localização</th>
+            <th>Apartamento</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for vagaestacionamento in vagaestacionamentos %}
+        <tr>
+            <td>{{ vagaestacionamento.codigo }} </td>
+            <td>{{ vagaestacionamento.localizacao }}</td>
+            <td>{{ vagaestacionamento.apartamento }}</td>
+            <td>
+                <a class="btn btn-sm btn-info" href="{% url 'vagaestacionamento_detail' vagaestacionamento.pk %}">Ver</a>
+                <a class="btn btn-sm btn-warning" href="{% url 'vagaestacionamento_update' vagaestacionamento.pk %}">Editar</a>
+                <a class="btn btn-sm btn-danger" href="{% url 'vagaestacionamento_delete' vagaestacionamento.pk %}">Excluir</a>
+            </td>
+        </tr>
+    {% empty %}
+        <tr><td colspan="4">Nenhuma Garagem Cadastrado.</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
+
+

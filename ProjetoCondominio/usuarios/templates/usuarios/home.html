@@ -33,6 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'visitante_list' %}">Visitantes</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'vagaestacionamento_list' %}">Garagens</a>
+                </li>
 
                 
             </ul>
@@ -54,8 +57,13 @@
             <a class="btn btn-success btn-lg" href="{% url 'morador_list' %}" role="button">
                 <i class="fas fa-user"></i> Gerenciar Moradores
             </a>
-            <a class="btn btn-success btn-lg" href="{% url 'visitante_list' %}" role="button">
+            <a class="btn btn-success btn-lg" href="{% url 'visitante_list' %}" role="button"> 
                 <i class="fas fa-user"></i> Gerenciar Visitantes
+            </a>
+            <br>
+            <br>
+            <a class="btn btn-success btn-lg" href="{% url 'visitante_list' %}" role="button">
+                <i class="fas fa-car"></i> Gerenciar Garagens
             </a>
             
         </div>

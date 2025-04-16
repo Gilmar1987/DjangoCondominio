@@ -1,0 +1,15 @@
+{% extends 'garagens/base.html' %}
+
+{% block title %}Detalhes das Garagens{% endblock %}
+
+{% block content %}
+<h2>Detalhes das Garagens</h2>
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Código:</strong> {{ vagaestacionamento.codigo }} </li>
+    <li class="list-group-item"><strong>Localização:</strong> {{ vagaestacionamento.localizacao }}</li>
+    <li class="list-group-item"><strong>Apartamento:</strong> {{ vagaestacionamento.apartamento}}</li>
+    
+</ul>
+<a href="{% url 'vagaestacionamento_update' vagaestacionamento.pk %}" class="btn btn-warning">Editar</a>
+<a href="{% url 'vagaestacionamento_list' %}" class="btn btn-secondary">Voltar</a>
+{% endblock %}

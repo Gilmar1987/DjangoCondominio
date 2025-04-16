@@ -13,8 +13,7 @@ urlpatterns = [
     path('apartamentos/', include('apartamentos.urls')),
     path('moradores/', include('moradores.urls')),
     path('visitantes/', include('visitantes.urls')),
-    
-    
-    
+    path('garagens/', include('garagens.urls')),
+        
    
 ]
