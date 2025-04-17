@@ -13,6 +13,7 @@ class Morador(Usuario):
     data_nascimento = models.DateField(blank=True, null=True)
     data_criacao = models.DateTimeField(auto_now_add=True)
     data_atualizacao = models.DateTimeField(auto_now=True)
+    data_saida = models.DateField(blank=True, null=True)  # <- Campo adicionado
 
     class Meta:
         

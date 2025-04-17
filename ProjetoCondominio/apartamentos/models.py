@@ -8,7 +8,10 @@ class Apartamento(models.Model):
     andar = models.IntegerField(blank=True, null=True, verbose_name="Andar")
     bloco = models.CharField(max_length=10, verbose_name="Bloco/Torre")
     status = models.BooleanField(default=True, verbose_name="Status")
-    proprietario = models.ForeignKey(Proprietario, on_delete=models.PROTECT, related_name="proprietario_apartamento")
+    proprietario = models.ForeignKey(Proprietario, on_delete=models.SET_NULL, 
+                   null=True, 
+                   blank=True,
+                   related_name="proprietario_apartamento")
     data_criacao = models.DateTimeField(auto_now_add=True)
     data_atualizacao = models.DateTimeField(auto_now=True)
     

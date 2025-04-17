@@ -11,6 +11,11 @@
         <div class="mb-3">
             <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
             {{ field }}
+            {% if field.name == "localizacao" and field.field.widget.attrs.disabled %}
+                <small class="form-text text-muted">
+                    Selecione e salve um apartamento para liberar as opções de localização.
+                </small>
+            {% endif %}
             {% if field.help_text %}
                 <small class="form-text text-muted">{{ field.help_text }}</small>
             {% endif %}
@@ -19,45 +24,17 @@
             {% endfor %}
         </div>
     {% endfor %}
+
+    {% if form.fields.localizacao.widget.attrs.disabled %}
+        <div class="alert alert-info">
+            <strong>Passo 1:</strong> Selecione o apartamento e clique em "Salvar".<br>
+            <strong>Passo 2:</strong> Após salvar, escolha a localização da vaga disponível.
+        </div>
+    {% endif %}
+
     <button type="submit" class="btn btn-primary">Salvar</button>
     <a href="{% url 'vagaestacionamento_list' %}" class="btn btn-secondary">Cancelar</a>
 </form>
 {% endblock %}
-
-{% block extra_scripts %}
-<script>
-    function atualizaLocalizacao() {
-        const select = document.getElementById('id_apartamento');
-        const localizacao = document.getElementById('id_localizacao');
-        const info_apartamento = document.getElementById('id_info_apartamento');
-
-        if (!select || !localizacao) return;
-
-        const selected = select.options[select.selectedIndex];
-        if (!selected || !selected.text) return;
-
-        const texto = selected.text;
-
-        const regex = /(?<numero>\d+).*?(?:(?<=Andar\s)|(?<=andar\s))(?<andar>\d+).*?(?:Bloco\s|Torre\s)?(?<bloco>[A-Za-z0-9]+)/i;
-        const match = texto.match(regex);
-
-        if (match && match.groups) {
-            const { bloco, andar, numero } = match.groups;
-            const nova_localizacao = `Bloco ${bloco} - Andar ${andar} - Ap ${numero}`;
-            localizacao.value = nova_localizacao;
-            if (info_apartamento) {
-                info_apartamento.value = `Bloco: ${bloco}, Andar: ${andar}, Número: ${numero}`;
-            }
-        }
-    }
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const select = document.getElementById('id_apartamento');
-        if (select) {
-            select.addEventListener('change', atualizaLocalizacao);
-        }
-        atualizaLocalizacao();
-    });
-</script>
-{% endblock %}
-
+    
+    

@@ -5,8 +5,8 @@ from apartamentos.models import Apartamento
  
 class VagaEstacionamento(models.Model):
     codigo = models.CharField(max_length=10)
-    localizacao = models.CharField(max_length=100)
     apartamento = models.OneToOneField(Apartamento, on_delete=models.CASCADE, related_name='vaga_estacionamento')
-
+    localizacao = models.CharField(max_length=50)
+        
     def __str__(self):
         return f"Vaga {self.codigo} - Apartamento {self.apartamento.numero}"
